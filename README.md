@@ -13,7 +13,7 @@
 ###About Pixuru and the SDK
 --------------------------------------
 
-Pixuru is one of the leading print commerce SDK's throughout the world.  We turn mobile phone images into high quality art pieces for your wall.  Out product line includes, canvas, wood, metal and framed prints.  Our line extends to iPhone cases, laptop sleeves and more.  Our partnerships include Facetune, CloneCamera, AlienSky and others.  
+Pixuru is one of the leading print commerce SDK's throughout the world.  We turn mobile phone images into high quality art pieces for your wall.  Our product line includes, canvas, wood, metal and framed prints.  Our line extends to iPhone cases, laptop sleeves and more.  Our partnerships include Facetune, CloneCamera, AlienSky and others.  
 
 The Pixuru SDK can be installed easily and soon your users will be able to print their photos right from your app's UI.  [Email us] (mailto:craig.hensel@pixuru.com) for partnership inquiries.
 
