@@ -1,5 +1,4 @@
 ##Pixuru iOS SDK
-============
 --------------------------------------
 ###Critical Steps for Non-ARC Apps
 --------------------------------------
@@ -19,19 +18,23 @@ Instantiate the **PSDKMasterNavigationController** with the **PSDKProductSelectV
 
 If you wish to customize the SDK views, you must subscribe to the protocol that **PSDKMasterNavigationController** provides through the `psdkdelegate` property.
 
+```
 `PSDKProductSelectViewController *psvc = [[PSDKProductSelectViewController alloc] init];
 PSDKMasterNavigationController *master = [[PSDKMasterNavigationController alloc] initWithRootViewController:psvc];
 master.psdkdelegate = self;`
+```
 
 Any time the SDK is freshly presented, you need to call the `initializePixuruSDKWithImage:` method of **PSDKMasterNavigationController**:
 
-`UIImage *image = [UIImage imageNamed:@"borabora.jpg"];
+```
+UIImage *image = [UIImage imageNamed:@"borabora.jpg"];
     if(image){
     [master initializePixuruSDKWithImage:image];
     [self.navigationController presentViewController:master animated:YES completion:nil];
     }else{
     NSLog(@"Image not found");
-    }`
+    }
+```
 
 --------------------------------------
 ###Customize Appearance
@@ -62,16 +65,18 @@ All of the available views can be seen in the header files of each view controll
 
 Grab the value for key `view` in the info dictionary, which will always be the class name for the view being shown.
 
-`- (void)pixuruView:(PSDKMasterNavigationController *)master WillShow:(NSDictionary *)info;
+```
+- (void)pixuruView:(PSDKMasterNavigationController *)master WillShow:(NSDictionary *)info;
 {
 	if([[info objectForKey:@"view"] isEqualToString:@"PSDKProductSelectViewController"]){
 		// Using a cast to access the carousel view, and changing its color.
-        [((PSDKProductSelectViewController *)[master topViewController]).carousel setBackgroundColor:[UIColor blackColor]];`
+        [((PSDKProductSelectViewController *)[master topViewController]).carousel setBackgroundColor:[UIColor blackColor]];
         
-    `}else if([[info objectForKey:@"view"] isEqualToString:@"PSDKMoveScaleViewController"]){
+    }else if([[info objectForKey:@"view"] isEqualToString:@"PSDKMoveScaleViewController"]){
         // etc
     }
-}`
+}
+```
 
 --------------------------------------
 ###ClientOptions.plist
@@ -135,8 +140,10 @@ The types of notification defined in the `type` key include:
 - user_registered
 - api_fail
 
-Structure of the notifications:
-`{
+####Structure of the notifications:
+
+```
+{
     type: "order_complete",
     info:{
         date: "",
@@ -164,7 +171,8 @@ Structure of the notifications:
         },
         error: ""
     }
-}`
+}
+```
 
 --------------------------------------
 ###Launch Checklist
