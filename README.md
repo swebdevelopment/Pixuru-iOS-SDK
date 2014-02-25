@@ -4,7 +4,7 @@
 
 [Adding the files to your project](#adding-the-files-to-your-project)
 
-[Critical Steps for Non-ARC Apps](#critical-steps-for-non--arc-apps)
+[Critical Steps for Non-ARC Apps](#critical-steps-for-non-arc-apps)
 
 [Initialize the SDK](#initialize-the-sdk)
 
