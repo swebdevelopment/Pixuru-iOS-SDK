@@ -1,12 +1,19 @@
 ##Pixuru iOS SDK
 
 [Requesting an App Key](#requesting-an-app-key)
+
 [Adding the files to your project](#adding-the-files-to-your-project)
+
 [Critical Steps for Non-ARC Apps](#critical-steps-for-non--arc-apps)
+
 [Initialize the SDK](#initialize-the-sdk)
+
 [Customize the Appearance](#customize-the-appearance)
+
 [ClientOptions.plist](#clientoptions.plist)
+
 [Notifications](#notifications)
+
 [Launch Checklist](#launch-checklist)
 
 --------------------------------------
