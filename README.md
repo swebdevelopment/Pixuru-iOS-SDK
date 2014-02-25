@@ -113,7 +113,7 @@ Grab the value for key `view` in the info dictionary, which will always be the c
 ###ClientOptions.plist
 --------------------------------------
 
-The **ClientOptions.plist** included with the SDK contains several key fields, and many optional ones.
+The **ClientOptions.plist** included with the SDK contains several required key fields, and many optional ones.
 
 ####General Options:
 
@@ -146,7 +146,7 @@ The **ClientOptions.plist** included with the SDK contains several key fields, a
 * **default** 					
     (BOOL)   - Determines which product is selected by default when the user selects the category. default = 1 is selected. If more than one item in a given category is default = 1, the app will use the first default item in this array.	
 * **addToBasePrice**				
-    (NUMBER) - An (optional) amount (USD) to add to the minimum price of the product as determined by Pixuru (see table below). If addToBasePrice = 5.99 for a given product and the product base price is $125.00, the product price in the SDK will be $130.99.
+    (NUMBER) - An (optional) amount (USD) to add to the minimum price of the product as determined by Pixuru. If addToBasePrice = 5.99 for a given product and the product base price is $125.00, the product price displayed in and used by the SDK will be $130.99.
 * **included** 					
     (BOOL)   - A simple bool to show/hide particular products. If include = 0 for a given product, that product will not be shown to users.
 * **sizeid**  					
