@@ -86,7 +86,7 @@ These include:
 - **PSDKCustomButton.h/.m**
 - **PSDKSegmentedShippingButton.h/.m**
 
-The **Action** and **Cancel** buttons are found exclusively in the navigation bar, while the **Custom** button is used as the instance of all other UI buttons within the SDK.
+The **Action** and **Cancel** buttons are found exclusively in the navigation bar, while the **Custom** button is used as the instance of all other UI buttons within the SDK. The **Segmented Shipping** button is only used on the product selection view to signal US or international shipping.
 
 Customizing these allows you to theme the app to your liking.
 
