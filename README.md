@@ -17,7 +17,7 @@ Pixuru is one of the leading print commerce SDK's throughout the world.  We turn
 
 The Pixuru SDK can be installed easily and soon your users will be able to print their photos right from your app's UI.  [Email us] (mailto:craig.hensel@pixuru.com) for partnership inquiries.
 
-An App Key from Pixuru is required to publish an app including the Pixuru SDK
+####An App Key from Pixuru is required to publish an app including the Pixuru SDK
 
 --------------------------------------
 ###Adding the files to your project
