@@ -47,7 +47,7 @@ Instantiate the **PSDKMasterNavigationController** with the **PSDKProductSelectV
 If you wish to customize the SDK views, you must subscribe to the protocol that **PSDKMasterNavigationController** provides through the `psdkdelegate` property.
 
 ```
-`PSDKProductSelectViewController *psvc = [[PSDKProductSelectViewController alloc] init];
+PSDKProductSelectViewController *psvc = [[PSDKProductSelectViewController alloc] init];
 PSDKMasterNavigationController *master = [[PSDKMasterNavigationController alloc] initWithRootViewController:psvc];
 master.psdkdelegate = self;`
 ```
