@@ -10,9 +10,6 @@
 	- AddressBook
  	- AddressBookUI
  	- QuartzCore
- 	- Foundation
- 	- CoreGraphics
- 	- UIKit 
 
 --------------------------------------
 ###Critical Steps for Non-ARC Apps
