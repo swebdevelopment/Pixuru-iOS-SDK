@@ -1,6 +1,6 @@
 ##Pixuru iOS SDK
 
-- [Requesting an App Key](#requesting-an-app-key)
+- [About Pixuru and the SDK](#about-pixuru-and-the-sdk)
 - [Adding the files to your project](#adding-the-files-to-your-project)
 - [Critical Steps for Non-ARC Apps](#critical-steps-for-non-arc-apps)
 - [Initialize the SDK](#initialize-the-sdk)
@@ -10,11 +10,14 @@
 - [Launch Checklist](#launch-checklist)
 
 --------------------------------------
-###Requesting an App Key
+###About Pixuru and the SDK
 --------------------------------------
 
+Pixuru is one of the leading print commerce SDK's throughout the world.  We turn mobile phone images into high quality art pieces for your wall.  Out product line includes, canvas, wood, metal and framed prints.  Our line extends to iPhone cases, laptop sleeves and more.  Our partnerships include Facetune, CloneCamera, AlienSky and others.  
 
+The Pixuru SDK can be installed easily and soon your users will be able to print their photos right from your app's UI.  [Email us]: craig.hensel@pixuru.com for partnership inquiries.
 
+An App Key from Pixuru is required to publish an app including the Pixuru SDK
 
 --------------------------------------
 ###Adding the files to your project
