@@ -1,5 +1,8 @@
 ##Pixuru iOS SDK
 
+[Adding the files to your project](#adding-the-files-to-your-project)
+
+
 --------------------------------------
 ###Adding the files to your project
 --------------------------------------
