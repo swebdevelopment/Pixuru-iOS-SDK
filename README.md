@@ -178,6 +178,9 @@ The types of notification defined in the `type` key include:
 ###Launch Checklist
 --------------------------------------
 
+**Prior to submitting your app to Apple with the SDK enabled, it is critical that you:**
+- Change the production_mode bool in ClientOptions.plist to "YES" to connect to the production API
+- Include your valid appKey from Pixuru in ClientOptions.plist
 
 
 
