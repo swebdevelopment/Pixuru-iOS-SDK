@@ -7,12 +7,12 @@
 1. Drag and drop the PixuruSDKLibrary folder into your project, checking the "Copy items into destination group’s folder (if needed)” box and adding the framework to the appropriate targets in your project.
 
 2. Add the following libraries if they are not already part of your project:
-* AddressBook
-* AddressBookUI
-* QuartzCore
-* Foundation
-* CoreGraphics
-* UIKit 
+	- AddressBook
+ 	- AddressBookUI
+ 	- QuartzCore
+ 	- Foundation
+ 	- CoreGraphics
+ 	- UIKit 
 
 --------------------------------------
 ###Critical Steps for Non-ARC Apps
