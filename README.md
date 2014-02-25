@@ -58,7 +58,7 @@ master.psdkdelegate = self;`
 Any time the SDK is freshly presented, you need to call the `initializePixuruSDKWithImage:` method of **PSDKMasterNavigationController**:
 
 ```
-UIImage *image = [UIImage imageNamed:@"borabora.jpg"];
+UIImage *image = [UIImage imageNamed:@"FooFoo.jpg"];
     if(image){
     [master initializePixuruSDKWithImage:image];
     [self.navigationController presentViewController:master animated:YES completion:nil];
