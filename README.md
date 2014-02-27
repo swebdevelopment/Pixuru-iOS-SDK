@@ -123,10 +123,6 @@ The **ClientOptions.plist** included with the SDK contains several required key 
     (Number) - Determines the animation style of the checkout pop up, 0=fade in, 1=slide down, 2=slide up
 * **appKey**          			
     (String) - Unique value sent to you by Pixuru. Identifies your app to credit you for orders.	
-* **poplabels**     				
-    (BOOL)   - Whether or not form label titles “pop” to the top of the field when they contain content. We think this is a nice touch, but if you don’t like it you can turn it off here.	
-* **poplabels_always_popped**		
-    (BOOL)   - When set to YES, form label titles will appear above the fields always, instead of inside of the field when blank.
 * **enable_user_login**			
     (BOOL)   - If set to NO, all checkouts will be as guests — users will not be able to register or log in to an existing Pixuru account.		
 * **wrap_carousel**				
@@ -143,8 +139,6 @@ The **ClientOptions.plist** included with the SDK contains several required key 
 
 ####Product Options:
 
-* **default** 					
-    (BOOL)   - Determines which product is selected by default when the user selects the category. default = 1 is selected. If more than one item in a given category is default = 1, the app will use the first default item in this array.	
 * **addToBasePrice**				
     (NUMBER) - An (optional) amount (USD) to add to the minimum price of the product as determined by Pixuru. If addToBasePrice = 5.99 for a given product and the product base price is $125.00, the product price displayed in and used by the SDK will be $130.99.
 * **included** 					
