@@ -44,4 +44,9 @@
 
 @property (strong, nonatomic) UISwitch *shippingSelector;
 
+@property (strong, nonatomic) UIFont *carouselHighlightFont;
+@property (strong, nonatomic) UIFont *carouselLowlightFont;
+@property (strong, nonatomic) UIColor *carouselHighlight;
+@property (strong, nonatomic) UIColor *carouselLowlight;
+
 @end
