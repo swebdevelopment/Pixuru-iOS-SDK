@@ -12,6 +12,8 @@
 
 @interface PSDKProcessOrderViewController : UIViewController <UIAlertViewDelegate>
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) UITextView *textField;
 @property (strong, nonatomic) UIProgressView *progressIndicator;
 @property (strong, nonatomic) PSDKCustomButton *doneButton;

@@ -12,6 +12,8 @@
 
 @interface PSDKCartViewController : UIViewController <UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UIAlertViewDelegate>
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UIView *contentView;
 

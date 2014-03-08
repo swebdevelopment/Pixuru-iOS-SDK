@@ -11,6 +11,7 @@
 @interface PSDKNotificationManager : NSObject
 
 + (PSDKNotificationManager *)sharedInstance;
++ (void)resetSharedInstance;
 
 - (void)postNotificationWithType:(NSString *)type andError:(NSString *)error;
 

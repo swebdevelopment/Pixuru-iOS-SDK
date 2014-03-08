@@ -15,6 +15,8 @@
 
 @property (strong, nonatomic) iCarousel *carousel;
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) UIView *priceAndSizeView;
 @property (strong, nonatomic) UILabel *priceLabel;
 @property (strong, nonatomic) UILabel *interlabel;

@@ -12,6 +12,8 @@
 
 @interface PSDKMoveScaleViewController : UIViewController
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) UIView *lowerButtonView;
 @property (strong, nonatomic) PSDKCustomButton *rotateProductButton;
 @property (strong, nonatomic) PSDKCustomButton *rotateImageButton;

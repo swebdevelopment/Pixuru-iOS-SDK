@@ -10,6 +10,8 @@
 
 @interface PSDKRegisterViewController : UIViewController <UITextFieldDelegate>
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) UITextField *emailField;
 @property (strong, nonatomic) UITextField *passwordField;
 @property (strong, nonatomic) UITextField *confirmField;
