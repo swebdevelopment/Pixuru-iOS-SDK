@@ -10,6 +10,7 @@
 #import <AddressBookUI/AddressBookUI.h>
 
 @class PSDKCustomButton;
+@class PSDKActionButton;
 
 @interface PSDKAddressViewController : UIViewController <UITextFieldDelegate, ABPeoplePickerNavigationControllerDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UIAlertViewDelegate>
 
@@ -26,6 +27,7 @@
 
 @property (strong, nonatomic) PSDKCustomButton *contactsButton;
 @property (strong, nonatomic) PSDKCustomButton *countryButton;
+@property (strong, nonatomic) PSDKActionButton *cartButton;
 
 @property (strong, nonatomic) UITextField *firstnameField;
 @property (strong, nonatomic) UITextField *lastNameField;
