@@ -3,6 +3,7 @@
 - [About Pixuru and the SDK](#about-pixuru-and-the-sdk)
 - [Adding the files to your project](#adding-the-files-to-your-project)
 - [Critical Steps for Non-ARC Apps](#critical-steps-for-non-arc-apps)
+- [iPhone-Only App Recommendations](iphone-only-app-recommendations)
 - [Initialize the SDK](#initialize-the-sdk)
 - [Customize the Appearance](#customize-the-appearance)
 - [ClientOptions.plist](#clientoptions.plist)
@@ -38,6 +39,12 @@ The Pixuru SDK has two dependencies that are not compiled into the static librar
 
 If you are building a project using manual reference counting, be sure to add the `-fobjc-arc` flag to the iCarousel.m, and base64.m in the compile sources tab.
 You need to be using the LLVM for this.
+
+--------------------------------------
+###iPhone-Only App Recommendations
+--------------------------------------
+
+All of the images in the Pixuru SDK are set up to support universal binaries. If your application is iPhone-only, we suggest deleting the `iPad Images` folder within the `resources` directory of the SDK to cut down on the size of the SDK.
 
 --------------------------------------
 ###Initialize the SDK
