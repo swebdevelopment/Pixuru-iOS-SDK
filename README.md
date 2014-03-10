@@ -3,7 +3,7 @@
 - [About Pixuru and the SDK](#about-pixuru-and-the-sdk)
 - [Adding the files to your project](#adding-the-files-to-your-project)
 - [Critical Steps for Non-ARC Apps](#critical-steps-for-non-arc-apps)
-- [iPhone-Only App Recommendations](iphone-only-app-recommendations)
+- [iPhone-Only App Recommendations](#iphone-only-app-recommendations)
 - [Initialize the SDK](#initialize-the-sdk)
 - [Customize the Appearance](#customize-the-appearance)
 - [ClientOptions.plist](#clientoptions.plist)
