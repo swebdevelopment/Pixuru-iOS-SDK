@@ -9,8 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @class PSDKCustomButton;
+@class PSDKActionButton;
 
 @interface PSDKCartViewController : UIViewController <UITextFieldDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UIAlertViewDelegate>
+
+@property (strong, nonatomic) UIImageView *backgroundView;
 
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UIView *contentView;
@@ -40,6 +43,7 @@
 
 @property (strong, nonatomic) UIButton *sameAsShippingButton;
 @property (strong, nonatomic) PSDKCustomButton *chooseCountryButton;
+@property (strong, nonatomic) PSDKActionButton *purchaseButton;
 
 @property (strong, nonatomic) UITextField *addressOneField;
 @property (strong, nonatomic) UITextField *addressTwoField;

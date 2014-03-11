@@ -13,6 +13,7 @@
 @interface PSDKConnectionManager : NSObject <NSURLConnectionDelegate>
 
 + (PSDKConnectionManager *)sharedInstance;
++ (void)resetSharedInstance;
 
 @property (nonatomic, strong) id delegate;
 @property (nonatomic, assign) BOOL isProcessing;

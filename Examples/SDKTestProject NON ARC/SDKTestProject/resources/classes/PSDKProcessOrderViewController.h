@@ -9,12 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @class PSDKCustomButton;
+@class PSDKCancelButton;
 
 @interface PSDKProcessOrderViewController : UIViewController <UIAlertViewDelegate>
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) UITextView *textField;
 @property (strong, nonatomic) UIProgressView *progressIndicator;
-@property (strong, nonatomic) PSDKCustomButton *doneButton;
 @property (strong, nonatomic) UIImageView *poweredPixView;
+@property (strong, nonatomic) PSDKCustomButton *doneButton;
+@property (strong, nonatomic) PSDKCancelButton *cancelButton;
 
 @end

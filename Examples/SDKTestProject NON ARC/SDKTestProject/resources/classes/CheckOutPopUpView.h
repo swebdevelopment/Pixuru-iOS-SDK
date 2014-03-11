@@ -16,6 +16,8 @@
 
 @property (nonatomic, strong) id <CheckOutPopUpViewDelegate> delegate;
 
+@property (strong, nonatomic) UIImageView *backgroundView;
+
 @property (strong, nonatomic) PSDKCustomButton *guestButton;
 @property (strong, nonatomic) PSDKCustomButton *registerButton;
 @property (strong, nonatomic) PSDKCustomButton *loginButton;

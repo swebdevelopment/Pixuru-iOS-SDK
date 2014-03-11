@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "iCarousel.h"
 
-@class PSDKSegmentedShippingButton;
+@class PSDKCancelButton;
+@class PSDKActionButton;
 
 @interface PSDKProductSelectViewController : UIViewController <iCarouselDataSource, iCarouselDelegate, UIAlertViewDelegate>
 
 @property (strong, nonatomic) iCarousel *carousel;
+
+@property (strong, nonatomic) UIImageView *backgroundView;
 
 @property (strong, nonatomic) UIView *priceAndSizeView;
 @property (strong, nonatomic) UILabel *priceLabel;
@@ -41,5 +44,13 @@
 @property (strong, nonatomic) UIImageView *poweredPixView;
 
 @property (strong, nonatomic) UISwitch *shippingSelector;
+
+@property (strong, nonatomic) UIFont *carouselHighlightFont;
+@property (strong, nonatomic) UIFont *carouselLowlightFont;
+@property (strong, nonatomic) UIColor *carouselHighlight;
+@property (strong, nonatomic) UIColor *carouselLowlight;
+
+@property (strong, nonatomic) PSDKCancelButton *cancelButton;
+@property (strong, nonatomic) PSDKActionButton *previewButton;
 
 @end

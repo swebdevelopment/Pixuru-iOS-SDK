@@ -15,6 +15,7 @@
 
 
 + (PSDKProductCreationManager *)sharedInstance;
++ (void)resetSharedInstance;
 
 - (NSArray *)getProductsForKey:(unsigned char)productSelector;
 - (void)setPlainProductWithProduct:(PlainProduct *)product;
