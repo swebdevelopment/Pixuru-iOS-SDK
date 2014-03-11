@@ -3,6 +3,7 @@
 - [About Pixuru and the SDK](#about-pixuru-and-the-sdk)
 - [Adding the files to your project](#adding-the-files-to-your-project)
 - [Critical Steps for Non-ARC Apps](#critical-steps-for-non-arc-apps)
+- [iPhone-Only App Recommendations](#iphone-only-app-recommendations)
 - [Initialize the SDK](#initialize-the-sdk)
 - [Customize the Appearance](#customize-the-appearance)
 - [ClientOptions.plist](#clientoptions.plist)
@@ -40,6 +41,12 @@ If you are building a project using manual reference counting, be sure to add th
 You need to be using the LLVM for this.
 
 --------------------------------------
+###iPhone-Only App Recommendations
+--------------------------------------
+
+All of the images in the Pixuru SDK are set up to support universal binaries. If your application is iPhone-only, we suggest deleting the `iPad Images` folder within the `resources` directory of the SDK to cut down on the size of the SDK.
+
+--------------------------------------
 ###Initialize the SDK
 --------------------------------------
 
@@ -47,12 +54,32 @@ The SDK is launched using the `presentViewController:` method of **UINavigationC
 
 Instantiate the **PSDKMasterNavigationController** with the **PSDKProductSelectViewController** as its root view controller.
 
-If you wish to customize the SDK views, you must subscribe to the protocol that **PSDKMasterNavigationController** provides through the `psdkdelegate` property.
+If you wish to customize the SDK views, you must subscribe to the protocol that **PSDKMasterNavigationController** provides through the `psdkdelegate` property. Customizing the product carousel is the only UI customization that does not occur in the delegate method (see example below).
+
+*Here is a simple example, using the default style:*
 
 ```
 PSDKProductSelectViewController *psvc = [[PSDKProductSelectViewController alloc] init];
+
 PSDKMasterNavigationController *master = [[PSDKMasterNavigationController alloc] initWithRootViewController:psvc];
 master.psdkdelegate = self;`
+```
+
+*Here is a complex example, showing complete customization:*
+
+```
+PSDKProductSelectViewController *psvc = [[PSDKProductSelectViewController alloc] init];
+psvc.carouselLowlightFont = [UIFont fontWithName:@"HelveticaNeue-Thin" size:20.0f];
+psvc.carouselHighlightFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:22.0f];
+psvc.carouselLowlight = [UIColor colorWithWhite:0.0f alpha:0.6f];
+psvc.carouselHighlight = [UIColor colorWithRed:(245.0f/255.0f) green:(245.0f/255.0f) blue:(245.0f/255.0f) alpha:1.0f];
+
+PSDKMasterNavigationController *master = [[PSDKMasterNavigationController alloc] initWithRootViewController:psvc];
+[master setPopLabelsColor:[UIColor colorWithRed:(245.0f/255.0f) green:(245.0f/255.0f) blue:(245.0f/255.0f) alpha:1.0f]];
+master.psdkdelegate = self;
+[master initializePixuruSDKWithImage:imageView.image];
+master.navigationBar.barTintColor = [UIColor blackColor];
+master.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor colorWithRed:(245.0f/255.0f) green:(245.0f/255.0f) blue:(245.0f/255.0f) alpha:1.0f]};
 ```
 
 Any time the SDK is freshly presented, you need to call the `initializePixuruSDKWithImage:` method of **PSDKMasterNavigationController**:
@@ -73,23 +100,6 @@ UIImage *image = [UIImage imageNamed:@"FooFoo.jpg"];
 
 There are a few different methods of visual customization in the SDK.
 
-You can use `UIAppearance` for various UI elements such as the navigation bar, etc.
-
-There are also several open classes that have been copied for you outside of the static library.
-
-They come with default stylings already applied inside their .m files, which you can change and add on to.
-
-These include:
-
-- **PSDKActionButton.h/.m**
-- **PSDKCancelButton.h/.m**
-- **PSDKCustomButton.h/.m**
-- **PSDKSegmentedShippingButton.h/.m**
-
-The **Action** and **Cancel** buttons are found exclusively in the navigation bar, while the **Custom** button is used as the instance of all other UI buttons within the SDK. The **Segmented Shipping** button is only used on the product selection view to signal US or international shipping.
-
-Customizing these allows you to theme the app to your liking.
-
 To gain complete control over the look and feel of the SDK, you must subscribe to the protocol method that the **PSDKMasterNavigationController** provides. During the `viewDidLoad:` method of each view controller Pixuru SDK will call this delegate method, offering you the chance to customize the appearance of its subviews. The method will be called after all the subviews have been built, framed, and default styled, but before the view is shown to the user. If you are subscribing to this method, be sure to import the headers to the classes that you wish to customize.
 
 All of the available views can be seen in the header files of each view controller.
@@ -107,6 +117,38 @@ Grab the value for key `view` in the info dictionary, which will always be the c
         // etc
     }
 }
+```
+
+You can use `UIAppearance` for various UI elements such as the navigation bar, etc.
+
+There are also several open classes that have been copied for you outside of the static library.
+
+They come with default stylings already applied inside their .m files, which you can change and add on to.
+
+These include:
+
+- **PSDKActionButton.h/.m**
+- **PSDKCancelButton.h/.m**
+- **PSDKCustomButton.h/.m**
+
+The **Action** and **Cancel** buttons are found exclusively in the navigation bar, while the **Custom** button is used as the instance of all other UI buttons within the SDK. 
+
+Customizing these allows you to theme the app to your liking.
+
+Here's an example using a custom image for `PSDKActionButton.m` (the customizations go in `PSDKActionButton.m` directly):
+
+```
+[self setBackgroundColor:[UIColor clearColor]];
+[self setTitleColor:[UIColor clearColor] forState:UIControlStateNormal];
+[self setBackgroundImage:[UIImage imageNamed:@"forward"] forState:UIControlStateNormal];
+[self setBackgroundImage:[UIImage imageNamed:@"forward-pressed"] forState:UIControlStateHighlighted];
+```
+
+You may need to adjust the bounds on custom button images to prevent stretching and pixelation, particularly if you choose to use images instead of text. Do that through the delegate method, like in this example:
+
+```
+[((PSDKProductSelectViewController *)[master topViewController]).cancelButton setBounds:CGRectMake(0, 0, 44, 44)];
+[((PSDKProductSelectViewController *)[master topViewController]).previewButton setBounds:CGRectMake(0, 0, 44, 44)];
 ```
 
 --------------------------------------
