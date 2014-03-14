@@ -8,6 +8,7 @@
 - [Customize the Appearance](#customize-the-appearance)
 - [ClientOptions.plist](#clientoptions.plist)
 - [Notifications](#notifications)
+- [Test Purchases](#test-purchases)
 - [Launch Checklist](#launch-checklist)
 
 --------------------------------------
@@ -240,6 +241,16 @@ The types of notification defined in the `type` key include:
     }
 }
 ```
+
+--------------------------------------
+###Test Purchases
+--------------------------------------
+
+When in debug mode, you can use the following sandbox credit card to make test purchases:
+
+Credit card number: 4111 1111 1111 1111
+Expiration: any future date
+CVV: any 3 digits
 
 --------------------------------------
 ###Launch Checklist
