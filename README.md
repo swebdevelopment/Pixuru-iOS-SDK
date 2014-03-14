@@ -249,7 +249,9 @@ The types of notification defined in the `type` key include:
 When in debug mode, you can use the following sandbox credit card to make test purchases:
 
 Credit card number: 4111 1111 1111 1111
+
 Expiration: any future date
+
 CVV: any 3 digits
 
 --------------------------------------
