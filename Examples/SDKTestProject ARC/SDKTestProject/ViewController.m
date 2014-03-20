@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "PSDKMasterNavigationController.h"
 #import "PSDKProductSelectViewController.h"
+#import "ShippingDiscountView.h"
+#import "CheckOutPopUpView.h"
 
 
 /*
@@ -68,6 +70,21 @@ be sure to add the '-fobjc-arc' flag to the iCarousel.m, and base64.m in the com
         [((PSDKProductSelectViewController *)[master topViewController]).carousel setBackgroundColor:[UIColor blackColor]];
         
     }else if([[info objectForKey:@"view"] isEqualToString:@"PSDKMoveScaleViewController"]){
+        // etc
+    }
+}
+
+- (void)pixuruView:(PSDKMasterNavigationController *)master WillShowPopUp:(NSDictionary *)info
+{
+    // This delegate method will send a pointer to the actual instance of the pop up
+    // Just test for the class or use any other way you would like to access the instance
+    // Called right before the view is shown to the user
+    
+    if([[info objectForKey:@"view"] isKindOfClass:[ShippingDiscountView class]]){
+        // ShippingDiscountView *sdv = (ShippingDiscountView *)[info objectForKey:@"view"];
+        // [sdv setBackgroundColor:[UIColor greenColor]];
+        
+    }else if([[info objectForKey:@"view"] isKindOfClass:[CheckOutPopUpView class]]){
         // etc
     }
 }

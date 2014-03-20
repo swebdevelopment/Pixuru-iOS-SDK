@@ -12,8 +12,9 @@
 
 @protocol PSDKMasterNavigationControllerDelegate <NSObject>
 
+@optional
 - (void)pixuruView:(PSDKMasterNavigationController *)master WillShow:(NSDictionary *)info;
-
+- (void)pixuruView:(PSDKMasterNavigationController *)master WillShowPopUp:(NSDictionary *)info;
 @end
 
 @interface PSDKMasterNavigationController : UINavigationController
@@ -28,5 +29,8 @@
 
 - (void)setPopLabelsFont:(UIFont *)font;
 - (void)setPopLabelsColor:(UIColor *)color;
+
+- (void)lockRotation;
+- (void)unlockRotation;
 
 @end

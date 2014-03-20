@@ -29,9 +29,11 @@
 @property (strong, nonatomic) UILabel *subTotalLabel;
 @property (strong, nonatomic) UILabel *taxAndShippingLabel;
 @property (strong, nonatomic) UILabel *grandTotalLabel;
+@property (strong, nonatomic) UILabel *discountLabel;
 @property (strong, nonatomic) UILabel *subTotalAmount;
 @property (strong, nonatomic) UILabel *taxAndShippingAmount;
 @property (strong, nonatomic) UILabel *grandTotalAmount;
+@property (strong, nonatomic) UILabel *discountAmount;
 
 @property (strong, nonatomic) UITextField *cardNumberField;
 @property (strong, nonatomic) UITextField *firstNameField;

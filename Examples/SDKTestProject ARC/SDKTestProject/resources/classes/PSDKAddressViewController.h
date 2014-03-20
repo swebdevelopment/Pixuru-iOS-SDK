@@ -11,6 +11,8 @@
 
 @class PSDKCustomButton;
 @class PSDKActionButton;
+@class ShippingDiscountView;
+@class CheckOutPopUpView;
 
 @interface PSDKAddressViewController : UIViewController <UITextFieldDelegate, ABPeoplePickerNavigationControllerDelegate, UIPickerViewDataSource, UIPickerViewDelegate, UIAlertViewDelegate>
 
@@ -27,7 +29,10 @@
 
 @property (strong, nonatomic) PSDKCustomButton *contactsButton;
 @property (strong, nonatomic) PSDKCustomButton *countryButton;
+@property (strong, nonatomic) PSDKCustomButton *discountButton;
 @property (strong, nonatomic) PSDKActionButton *cartButton;
+@property (strong, nonatomic) ShippingDiscountView *sdv;
+@property (strong, nonatomic) CheckOutPopUpView *cpv;
 
 @property (strong, nonatomic) UITextField *firstnameField;
 @property (strong, nonatomic) UITextField *lastNameField;

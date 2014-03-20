@@ -23,6 +23,8 @@
 @property (strong, nonatomic) PSDKCustomButton *loginButton;
 @property (strong, nonatomic) PSDKCustomButton *cancelButton;
 
+- (void)resize;
+
 @end
 
 @protocol CheckOutPopUpViewDelegate <NSObject>
