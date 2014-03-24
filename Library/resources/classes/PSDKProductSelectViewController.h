@@ -39,7 +39,7 @@
 @property (strong, nonatomic) UIButton *woodButton;
 @property (strong, nonatomic) UIButton *otherButton;
 
-@property (strong, nonatomic) UIView *blankView;
+@property (strong, nonatomic) UIView *internationalBackground;
 @property (strong, nonatomic) UIImageView *blueArrow;
 @property (strong, nonatomic) UIImageView *poweredPixView;
 
