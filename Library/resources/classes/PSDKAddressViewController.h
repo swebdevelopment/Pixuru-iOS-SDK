@@ -43,6 +43,9 @@
 @property (strong, nonatomic) UITextField *zipField;
 @property (strong, nonatomic) UITextField *emailTextField;
 
+@property (strong, nonatomic) UIFont *countryPickerDoneButtonFont;
+@property (strong, nonatomic) UIColor *countryPickerDoneButtonFontColor;
+
 
 @end
 
