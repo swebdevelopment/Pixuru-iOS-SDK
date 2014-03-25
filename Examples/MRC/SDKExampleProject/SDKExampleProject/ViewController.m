@@ -35,12 +35,10 @@
     
     if(image){
         // Initialize the SDK with an image and root view controller (PSDKProductSelectViewController)
-        PSDKProductSelectViewController *psvc = [[PSDKProductSelectViewController alloc] init];
-        PSDKMasterNavigationController *master = [[[PSDKMasterNavigationController alloc] initWithRootViewController:psvc] autorelease];
-        [psvc release];
+        PSDKProductSelectViewController *psvc = [[[PSDKProductSelectViewController alloc] init] autorelease];
+        PSDKMasterNavigationController *master = [[PSDKMasterNavigationController alloc] initWithRootViewController:psvc];
         master.psdkdelegate = self;
         [master initializePixuruSDKWithImage:image];
-        [image release];
         [self.navigationController presentViewController:master animated:YES completion:nil];
     }else{
         NSLog(@"Image not found");
