@@ -23,6 +23,4 @@
 @property (strong, nonatomic) PSDKCustomButton *rotateImageButton;
 @property (strong, nonatomic) PSDKActionButton *previewButton;
 
-@property (nonatomic, strong) UIImage *rotateImage;
-
 @end

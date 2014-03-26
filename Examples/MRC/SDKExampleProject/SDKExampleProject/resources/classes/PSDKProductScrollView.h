@@ -23,6 +23,5 @@
 - (void)createNewPreviewImage;
 - (void)PSDKScrollDidStartBuilding;
 - (void)PSDKScrollViewDidFinishBuilding;
-- (UIImage *)getRotatedImage;
 
 @end

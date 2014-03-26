@@ -63,4 +63,6 @@
 - (void)setPopUpAnimation:(unsigned char)animation;
 - (unsigned char)getPopUpAnimation;
 
+@property (nonatomic, strong) UIImage *rotateImage;
+
 @end
