@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>titles_and_buttons</key>
+	<dict>
+		<key>Thank You View</key>
+		<dict>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Processing Order View</key>
+		<dict>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Login View</key>
+		<dict>
+			<key>rightBarButtonTitle</key>
+			<string></string>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Register View</key>
+		<dict>
+			<key>rightBarButtonTitle</key>
+			<string></string>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Cart View</key>
+		<dict>
+			<key>rightBarButtonTitle</key>
+			<string></string>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Address View</key>
+		<dict>
+			<key>rightBarButtonTitle</key>
+			<string></string>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Move Scale View</key>
+		<dict>
+			<key>rightBarButtonTitle</key>
+			<string></string>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+		<key>Product Select View</key>
+		<dict>
+			<key>rightBarButtonTitle</key>
+			<string></string>
+			<key>leftBarButtonTitle</key>
+			<string></string>
+			<key>viewTitle</key>
+			<string></string>
+		</dict>
+	</dict>
+	<key>enable_user_login</key>
+	<true/>
+	<key>wrap_carousel</key>
+	<false/>
+	<key>production_mode</key>
+	<false/>
+	<key>popup_animation</key>
+	<integer>1</integer>
+	<key>appkey</key>
+	<string></string>
+	<key>products</key>
+	<dict>
+		<key>other</key>
+		<dict>
+			<key>iPhone 5 Case</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>501</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>iPad Case (hard cover)</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>502</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>iPad Case (soft cover)</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>503</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Flexible Magnet</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>504</integer>
+				<key>addToBasePrice</key>
+				<string></string>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>White Ceramic 15oz Mug</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>505</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Clear Plastic Key Chain</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>506</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Dog Tags</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>507</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Small T-Shirt</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>508</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Medium T-Shirt</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>508</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Large T-Shirt</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>509</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Extra-Large T-Shirt</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>510</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Tote Bag</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>511</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>7-Inch Laptop/Tablet Sleeve</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>512</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>10-Inch Laptop/Tablet Sleeve</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>513</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>15-Inch Laptop/Tablet Sleeve</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>514</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>wood</key>
+		<dict>
+			<key>Wood 16&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>403</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 8&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>401</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 11&quot;x14&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>402</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 24&quot;x30&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>404</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 6&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>405</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>406</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 20&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>409</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 20&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>410</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 30&quot;x8&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>411</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 40&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>412</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 3-Panel 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>407</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Wood 4-Panel 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>408</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>metal</key>
+		<dict>
+			<key>Metal 16&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>303</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 8&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>301</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 11&quot;x14&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>302</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 24&quot;x30&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>304</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 6&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>305</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>306</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 20&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>309</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 20&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>310</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 30&quot;x8&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>311</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 40&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>312</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 3-Panel 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>307</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Metal 4-Panel 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>308</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>canvas</key>
+		<dict>
+			<key>Canvas 16&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>204</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 8&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>201</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 11&quot;x14&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>202</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 24&quot;x30&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>203</integer>
+				<key>addToBasePrice</key>
+				<real>10.56</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 6&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>205</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>206</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 20&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>209</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 20&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>210</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 30&quot;x8&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>211</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 40&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>212</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 3-Panel 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>207</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Canvas 4-Panel 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>208</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>framed</key>
+		<dict>
+			<key>Framed 30&quot;x8&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>109</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 40&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>110</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 20&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>108</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 20&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>107</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 12&quot;x12&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>106</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 6&quot;x6&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>105</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 24&quot;x30&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>104</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 11&quot;x14&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>102</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 8&quot;x10&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>101</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+			<key>Framed 16&quot;x20&quot;</key>
+			<dict>
+				<key>sizeid</key>
+				<integer>103</integer>
+				<key>addToBasePrice</key>
+				<real>0</real>
+				<key>include</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
