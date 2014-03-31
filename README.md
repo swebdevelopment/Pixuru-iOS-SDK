@@ -58,6 +58,7 @@ Instantiate the **PSDKMasterNavigationController** with the **PSDKProductSelectV
 If you wish to customize the SDK views, you must subscribe to **PSDKMasterNavigationController** through the `psdkdelegate` property. Customizing the product carousel is the only UI customization that does not occur in the delegate method (see example below).  
 
 **On iPad:** the **PSDKMasterNavigationController** will include two keys:
+
 1. `view` with the class name `PSDKProductSelectView`
 2. `orientation` with two possible values: `landscape` and `portrait`
 
