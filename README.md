@@ -55,7 +55,13 @@ The SDK is launched using the `presentViewController:` method of **UINavigationC
 
 Instantiate the **PSDKMasterNavigationController** with the **PSDKProductSelectViewController** as its root view controller.
 
-If you wish to customize the SDK views, you must subscribe to the protocol that **PSDKMasterNavigationController** provides through the `psdkdelegate` property. Customizing the product carousel is the only UI customization that does not occur in the delegate method (see example below).
+If you wish to customize the SDK views, you must subscribe to **PSDKMasterNavigationController** through the `psdkdelegate` property. Customizing the product carousel is the only UI customization that does not occur in the delegate method (see example below).  
+
+**On iPad:** the **PSDKMasterNavigationController** will include two keys:
+1. `view` with the class name `PSDKProductSelectView`
+2. `orientation` with two possible values: `landscape` and `portrait`
+
+The `orientation` key will will register on intial loading of the iPad view, and when any rotation happens. This allows you to have any customizations ready for each orientation.
 
 *Here is a simple example, using the default style:*
 
