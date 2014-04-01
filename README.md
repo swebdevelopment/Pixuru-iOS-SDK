@@ -62,7 +62,7 @@ If you wish to customize the SDK views, you must subscribe to **PSDKMasterNaviga
 1. `view` with the class name `PSDKProductSelectView`
 2. `orientation` with two possible values: `landscape` and `portrait`
 
-The `orientation` key will will register on intial loading of the iPad view, and when any rotation happens. This allows you to have any customizations ready for each orientation.
+The `orientation` key will will register on initial loading of the iPad view, and when any rotation happens. This allows you to have any customizations ready for each orientation.
 
 *Here is a simple example, using the default style:*
 
@@ -177,6 +177,8 @@ The **ClientOptions.plist** included with the SDK contains several required key 
     (BOOL)   - If set to NO, all checkouts will be as guests — users will not be able to register or log in to an existing Pixuru account.		
 * **wrap_carousel**				
     (BOOL)   - If set to NO, the product selection carousel will not scroll endlessly (wrapping values).
+* **ipad_sdk_rotation** 
+    (BOOL)  - If set to true, SDK views will rotate on iPad.
 
 ####View Options:
 			
