@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F59104018EF737000B87D96 /* libPixuruSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F59103F18EF737000B87D96 /* libPixuruSDK.a */; };
 		6F8F1FEF18EA1F07000F6FB9 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F1FBA18EA1F06000F6FB9 /* Base64.m */; };
 		6F8F1FF018EA1F07000F6FB9 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F1FBD18EA1F06000F6FB9 /* iCarousel.m */; };
 		6F8F1FF118EA1F07000F6FB9 /* PSDKActionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8F1FC118EA1F06000F6FB9 /* PSDKActionButton.m */; };
@@ -53,7 +54,6 @@
 		6FA9356518BBB20900A8FE63 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA9356318BBB20900A8FE63 /* AddressBook.framework */; };
 		6FA9356618BBB20900A8FE63 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA9356418BBB20900A8FE63 /* AddressBookUI.framework */; };
 		6FA945B418BC0CC600A8FE63 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA945B318BC0CC600A8FE63 /* Main_iPad.storyboard */; };
-		6FE9B03918EDD26800E501A3 /* libPixuruSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FE9B03818EDD26800E501A3 /* libPixuruSDK.a */; };
 		6FE9B03B18EDD27600E501A3 /* borabora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FE9B03A18EDD27600E501A3 /* borabora.jpg */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +68,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F59103F18EF737000B87D96 /* libPixuruSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPixuruSDK.a; sourceTree = "<group>"; };
 		6F8F1FB918EA1F06000F6FB9 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
 		6F8F1FBA18EA1F06000F6FB9 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
 		6F8F1FBB18EA1F06000F6FB9 /* CheckOutPopUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutPopUpView.h; sourceTree = "<group>"; };
@@ -142,7 +143,6 @@
 		6FA9356318BBB20900A8FE63 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		6FA9356418BBB20900A8FE63 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
 		6FA945B318BC0CC600A8FE63 /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
-		6FE9B03818EDD26800E501A3 /* libPixuruSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPixuruSDK.a; sourceTree = "<group>"; };
 		6FE9B03A18EDD27600E501A3 /* borabora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = borabora.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -153,7 +153,7 @@
 			files = (
 				6FA9356518BBB20900A8FE63 /* AddressBook.framework in Frameworks */,
 				6FA9356618BBB20900A8FE63 /* AddressBookUI.framework in Frameworks */,
-				6FE9B03918EDD26800E501A3 /* libPixuruSDK.a in Frameworks */,
+				6F59104018EF737000B87D96 /* libPixuruSDK.a in Frameworks */,
 				6FA9356218BBB20300A8FE63 /* QuartzCore.framework in Frameworks */,
 				6FA9331718BB9C0A00A8FE63 /* CoreGraphics.framework in Frameworks */,
 				6FA9331918BB9C0A00A8FE63 /* UIKit.framework in Frameworks */,
@@ -307,7 +307,7 @@
 		6FA9331B18BB9C0A00A8FE63 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6FE9B03818EDD26800E501A3 /* libPixuruSDK.a */,
+				6F59103F18EF737000B87D96 /* libPixuruSDK.a */,
 				6F8F1FB718EA1F06000F6FB9 /* resources */,
 				6FA9331C18BB9C0A00A8FE63 /* SDKTestProject-Info.plist */,
 				6FE9B03A18EDD27600E501A3 /* borabora.jpg */,
