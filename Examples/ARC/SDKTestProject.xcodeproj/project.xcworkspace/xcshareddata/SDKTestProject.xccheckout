@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>F1A3E9C5-D33E-4159-BC65-752ECC942065</string>
+	<string>5DF7C1CB-AD73-4DCF-9E45-472F8732F5CA</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SDKTestProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,7 +14,7 @@
 		<string>ssh://github.com/swebdevelopment/Pixuru-iOS-SDK</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Examples/MRC/SDKTestProject.xcodeproj/project.xcworkspace</string>
+	<string>Examples/ARC/SDKTestProject.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>B8721399-AE8E-4EEF-ABE5-0F5CD445FDE4</key>
