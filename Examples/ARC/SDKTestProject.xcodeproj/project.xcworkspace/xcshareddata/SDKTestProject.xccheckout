@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>5DF7C1CB-AD73-4DCF-9E45-472F8732F5CA</string>
+	<string>92FE1B51-116C-4271-AB7A-E41AE97AE960</string>
 	<key>IDESourceControlProjectName</key>
 	<string>SDKTestProject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B8721399-AE8E-4EEF-ABE5-0F5CD445FDE4</key>
-		<string>ssh://github.com/swebdevelopment/Pixuru-iOS-SDK</string>
+		<key>1A75AD88-0D7A-4CC3-B32D-44AC90B962CC</key>
+		<string>ssh://github.com/swebdevelopment/Pixuru-iOS-SDK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Examples/ARC/SDKTestProject.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B8721399-AE8E-4EEF-ABE5-0F5CD445FDE4</key>
+		<key>1A75AD88-0D7A-4CC3-B32D-44AC90B962CC</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/swebdevelopment/Pixuru-iOS-SDK</string>
+	<string>ssh://github.com/swebdevelopment/Pixuru-iOS-SDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B8721399-AE8E-4EEF-ABE5-0F5CD445FDE4</string>
+	<string>1A75AD88-0D7A-4CC3-B32D-44AC90B962CC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B8721399-AE8E-4EEF-ABE5-0F5CD445FDE4</string>
+			<string>1A75AD88-0D7A-4CC3-B32D-44AC90B962CC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Pixuru-iOS-SDK</string>
 		</dict>
