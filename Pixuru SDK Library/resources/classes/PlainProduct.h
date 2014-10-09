@@ -18,7 +18,7 @@
 
 @property (nonatomic) float price;
 
-@property (nonatomic, strong) NSString *description;
+@property (nonatomic, strong) NSString *desc;
 @property (nonatomic, strong) NSString *imageName;
 @property (nonatomic, strong) UIImage *thumbnail;
 
